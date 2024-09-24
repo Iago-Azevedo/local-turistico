@@ -1,0 +1,6 @@
+.span-orange {
+  color: var(--accent-orange);
+  text-transform: uppercase;
+  font:var(--headline);
+}
+
