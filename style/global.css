@@ -8,7 +8,6 @@ body {
   font: var(--paragraph);
   color: var(--text-primary);
   background-color: var(--background-default);
-  margin: 90px;
 }
 
 .container {
@@ -22,6 +21,7 @@ header > div {
 }
 
 #img-header {
+  padding-bottom: 40px;
   img {
     width: 1120px;
     height: 660px;
@@ -35,5 +35,25 @@ header > div {
     font: var(--subtitle);
     font-style: italic;
     text-align: center;
+  }
+}
+
+#primary {
+  padding-block: 64px 40px;
+  border: solid 1px var(--border-primary);
+  border-inline: none;
+
+  .intro p {
+    color: var(--text-secondary);
+    line-height: 22px;
+    margin-block: 8px 64px;
+  }
+
+  img {
+        width: 1120px;
+        height: 350px;
+        border-radius: 28px;
+        margin-bottom: 20px;
+        object-fit: cover;
   }
 }

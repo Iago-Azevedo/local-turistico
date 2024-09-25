@@ -4,3 +4,8 @@
   font:var(--headline);
 }
 
+.secundary {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
