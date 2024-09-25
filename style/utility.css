@@ -4,8 +4,26 @@
   font:var(--headline);
 }
 
+.templos {
+  margin-bottom: 48px;
+}
+
 .secundary {
-  display: flex;
-  flex-direction: column;
   font-weight: bold;
+  ul {
+    list-style: inside;
+  }
+}
+
+.text-blue {
+  color: var(--accent-blue);
+}
+.text-purple{
+  color: var(--accent-purple);
+}
+.text-pink {
+  color: var(--accent-pink);
+}
+.text-orange {
+  color: var(--accent-orange);
 }
